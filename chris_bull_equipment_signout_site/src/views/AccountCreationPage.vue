@@ -21,42 +21,42 @@
                 <div class="offset-l1 offset-s1 col l3 s10 createInfoLabel">
                     <h5>Student ID:</h5>
                 </div>
-                <InputSection class="offset-s1 col l7 s10" inputType="text" inputName="createUserIdInput" inputPlaceholder="Enter User ID..." @updateInputModel="setProfileUserId"/>
+                <InputSection class="offset-s1 col l7 s10" inputType="text" inputValue="" inputName="createUserIdInput" inputPlaceholder="Enter User ID..." @updateInputModel="setProfileUserId"/>
             </div>
             <!-- User first name label and creation input row -->
             <div class="row">
                 <div class="offset-l1 offset-s1 col l3 s10 createInfoLabel">
                     <h5>First Name:</h5>
                 </div>
-                <InputSection class="offset-s1 col l7 s10" inputType="text" inputName="createUserFirstNameInput" inputPlaceholder="Enter first name..." @updateInputModel="setProfileUserFirstName"/>
+                <InputSection class="offset-s1 col l7 s10" inputType="text" inputValue="" inputName="createUserFirstNameInput" inputPlaceholder="Enter first name..." @updateInputModel="setProfileUserFirstName"/>
             </div>
             <!-- User last name label and creation input row -->
             <div class="row">
                 <div class="offset-l1 offset-s1 col l3 s10 createInfoLabel">
                     <h5>Last Name:</h5>
                 </div>
-                <InputSection class="offset-s1 col l7 s10" inputType="text" inputName="createUserLastNameInput" inputPlaceholder="Enter last name..." @updateInputModel="setProfileUserLastName"/>
+                <InputSection class="offset-s1 col l7 s10" inputType="text" inputValue="" inputName="createUserLastNameInput" inputPlaceholder="Enter last name..." @updateInputModel="setProfileUserLastName"/>
             </div>
             <!-- DC email label and creation input row -->
             <div class="row">
                 <div class="offset-l1 offset-s1 col l3 s10 createInfoLabel">
                     <h5>DC Email:</h5>
                 </div>
-                <InputSection class="offset-s1 col l7 s10" inputType="text" inputName="createDcEmailInput" inputPlaceholder="Enter DC email..." @updateInputModel="setProfileUserDcEmail"/>
+                <InputSection class="offset-s1 col l7 s10" inputType="text" inputValue="" inputName="createDcEmailInput" inputPlaceholder="Enter DC email..." @updateInputModel="setProfileUserDcEmail"/>
             </div>
             <!-- Other email label and creation input row -->
             <div class="row">
                 <div class="offset-l1 offset-s1 col l3 s10 createInfoLabel">
                     <h5>Other Email:</h5>
                 </div>
-                <InputSection class="offset-s1 col l7 s10" inputType="text" inputName="createOtherEmailInput" inputPlaceholder="Enter Other Email..." @updateInputModel="setProfileUserOtherEmail"/>
+                <InputSection class="offset-s1 col l7 s10" inputType="text" inputValue="" inputName="createOtherEmailInput" inputPlaceholder="Enter Other Email..." @updateInputModel="setProfileUserOtherEmail"/>
             </div>
             <!-- Password label and creation input row -->
             <div class="row">
                 <div class="offset-l1 offset-s1 col l3 s10 createInfoLabel">
                     <h5>Password:</h5>
                 </div>
-                <InputSection class="offset-s1 col l7 s10" inputType="password" inputName="createPasswordInput" inputPlaceholder="Create Password..." @updateInputModel="setProfileUserPassword"/>
+                <InputSection class="offset-s1 col l7 s10" inputType="password" inputValue="" inputName="createPasswordInput" inputPlaceholder="Create Password..." @updateInputModel="setProfileUserPassword"/>
             </div>
             <!-- Confirm account setup button row -->
             <div class="row">

@@ -4,7 +4,7 @@
     <!-- Div to contain inputs for the Equipment Signout site -->
     <div class="signoutSiteInput">
     <!-- Text input section -->
-        <input v-bind:id="inputId" v-bind:type="inputType" v-bind:name="inputName" v-bind:placeholder="inputPlaceholder" v-model="inputModel" @input="setInputModel(inputModel)">
+        <input v-bind:id="inputId" v-bind:type="inputType" v-bind:value="inputValue" v-bind:name="inputName" v-bind:placeholder="inputPlaceholder" v-model="inputModel" @input="setInputModel(inputModel)">
     </div>
 </template>
 
@@ -17,10 +17,11 @@ export default {
         inputType: String,
         inputName: String,
         inputPlaceholder: String,
+        inputValue: String
     },
     data() {
         return {
-            inputModel: ""
+            inputModel: this.inputValue
         }
     },
     methods: {

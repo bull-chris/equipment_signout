@@ -21,9 +21,9 @@
                 <!-- User sign in interaction column -->
                 <div class="offset-l1 offset-s1 col l4 s10">
                     <div class="subtitleText">User ID:</div>
-                    <InputSection inputType="text" inputName="userIdInput" inputPlaceholder=" Enter User ID..." @updateInputModel="updateUserId"/>
+                    <InputSection inputType="text" inputName="userIdInput" inputValue="123" inputPlaceholder=" Enter User ID..." @updateInputModel="updateUserId"/>
                     <div class="subtitleText">Password:</div>
-                    <InputSection inputType="password" inputName="passwordInput" inputPlaceholder=" Enter User Password..." @updateInputModel="updateUserPass"/>
+                    <InputSection inputType="password" inputName="passwordInput" inputValue="password" inputPlaceholder=" Enter User Password..." @updateInputModel="updateUserPass"/>
                     <ButtonSection class="offset-l2 offset-s2 col l14 s8" id="signInButton" buttonText="Sign In" :buttonAction="accountSignIn"/>
                 </div>
                 <!-- User forgotten password and new account creation column -->
@@ -66,8 +66,8 @@ export default {
     data() {
         return {
             equipmentUser: {
-                userId: "",
-                userPass: "",
+                userId: "123",
+                userPass: "password",
             },
         }
     },

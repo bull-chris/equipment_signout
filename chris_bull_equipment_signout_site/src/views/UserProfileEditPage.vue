@@ -16,42 +16,42 @@
                 <div class="offset-l1 offset-s1 col l3 s10 editInfoLabel">
                     <h5>First Name:</h5>
                 </div>
-                <InputSection class="offset-s1 col l7 s10" inputType="text" inputName="editfirstNameInput" :inputPlaceholder="this.$parent.equipmentSiteUser.nameFirst" @updateInputModel="setProfileUserFirstName"/>
+                <InputSection class="offset-s1 col l7 s10" inputType="text" inputValue="" inputName="editfirstNameInput" :inputPlaceholder="this.$parent.equipmentSiteUser.nameFirst" @updateInputModel="setProfileUserFirstName"/>
             </div>
             <!-- Edit DC Email label and input row -->
             <div class="row">
                 <div class="offset-l1 offset-s1 col l3 s10 editInfoLabel">
                     <h5>Last Name:</h5>
                 </div>
-                <InputSection class="offset-s1 col l7 s10" inputType="text" inputName="editlastNameInput" :inputPlaceholder="this.$parent.equipmentSiteUser.nameLast" @updateInputModel="setProfileUserLastName"/>
+                <InputSection class="offset-s1 col l7 s10" inputType="text" inputValue="" inputName="editlastNameInput" :inputPlaceholder="this.$parent.equipmentSiteUser.nameLast" @updateInputModel="setProfileUserLastName"/>
             </div>
             <!-- Edit Other Email label and input row -->
             <div class="row">
                 <div class="offset-l1 offset-s1 col l3 s10 editInfoLabel">
                     <h5>Other Email:</h5>
                 </div>
-                <InputSection class="offset-s1 col l7 s10" inputType="text" inputName="editOtherEmailInput" :inputPlaceholder="this.$parent.equipmentSiteUser.emailOther" @updateInputModel="setProfileUserOtherEmail"/>
+                <InputSection class="offset-s1 col l7 s10" inputType="text" inputValue="" inputName="editOtherEmailInput" :inputPlaceholder="this.$parent.equipmentSiteUser.emailOther" @updateInputModel="setProfileUserOtherEmail"/>
             </div>
             <!-- Current Password label and input row -->
             <div class="row">
                 <div class="offset-l1 offset-s1 col l3 s10 editInfoLabel">
                     <h5>Current Password:</h5>
                 </div>
-                <InputSection class="offset-s1 col l7 s10" inputType="password" inputName="inputCurrentPasswordInput" inputPlaceholder="Current Password Information..." @updateInputModel="setProfileUserCurrentPassword"/>
+                <InputSection class="offset-s1 col l7 s10" inputType="password" inputValue="" inputName="inputCurrentPasswordInput" inputPlaceholder="Current Password Information..." @updateInputModel="setProfileUserCurrentPassword"/>
             </div>
             <!-- New Password label and input row -->
             <div class="row">
                 <div class="offset-l1 offset-s1 col l3 s10 editInfoLabel">
                     <h5>New Password:</h5>
                 </div>
-                <InputSection class="offset-s1 col l7 s10" inputId="setPasswordInput" inputType="password" inputName="editPasswordInput" inputPlaceholder="New Password Information..." @updateInputModel="setProfileUserNewPassword"/>
+                <InputSection class="offset-s1 col l7 s10" inputId="setPasswordInput" inputValue="" inputType="password" inputName="editPasswordInput" inputPlaceholder="New Password Information..." @updateInputModel="setProfileUserNewPassword"/>
             </div>
             <!-- Confirm edited Password label and input row -->
             <div class="row">
                 <div class="offset-l1 offset-s1 col l3 s10 editInfoLabel">
                     <h5>Confirm new edited Password:</h5>
                 </div>
-                <InputSection class="offset-s1 col l7 s10" inputId="confirmPasswordInput" inputType="password" inputName="confirmEditPasswordInput" inputPlaceholder="Confirm new edited Password Information..." @updateInputModel="setProfileUserConfirmNewPassword"/>
+                <InputSection class="offset-s1 col l7 s10" inputId="confirmPasswordInput" inputValue="" inputType="password" inputName="confirmEditPasswordInput" inputPlaceholder="Confirm new edited Password Information..." @updateInputModel="setProfileUserConfirmNewPassword"/>
             </div>
             <!-- Confirm profile edits button row -->
             <div class="row">
